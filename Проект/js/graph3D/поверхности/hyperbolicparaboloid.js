@@ -38,9 +38,11 @@ Surfaces.prototype.hyperbolicparaboloid = (count = 20) => {
         }
     }
     polygons[180].visible = false;
-    //polygons[181].visible = false;
-    //polygons[199].visible = false;
-    //polygons[200].visible = false;
+    polygons[181].visible = false;
+    polygons[199].visible = false;
+    polygons[200].visible = false;
+    polygons[182].visible = false;
+    polygons[201].visible = false;
 
     return new Subject(points, edges, polygons);
 }
